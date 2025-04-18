@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "pnpm approve-builds bcrypt sharp -y && next build",
+    "build": "PNPM_ENABLE_PRE_POST_SCRIPTS=true next build",
     "dev": "next dev --turbopack",
     "start": "next start"
   },
